@@ -1,0 +1,7 @@
+booksDict = { "Title":"Concrete for Fun","Published":1972, "Author":"Ted McPavingstone", "Cover":"Ultra-Hardback","Price":5.99 }
+print(booksDict.keys())
+listokeys = tuple(booksDict.keys())
+print(listokeys)
+ 
+print(booksDict)
+print(booksDict["Price"])
